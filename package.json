@@ -10,12 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/burlakilia/js_20170130.git"
   },
-  "author": "Burlak Ilia",
+  "author": "Kseniia Platova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/burlakilia/js_20170130/issues"
+    "url": "https://github.com/kplatova/js_20170130/issues"
   },
-  "homepage": "https://github.com/burlakilia/js_20170130#readme",
+  "homepage": "https://github.com/kplatova/js_20170130#readme",
   "devDependencies": {
     "eslint": "3.18.0",
     "eslint-config-airbnb": "14.1.0",
