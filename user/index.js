@@ -1,6 +1,8 @@
 // modules.export = export = this
+// расширение можно не писать
+// тк сначала ищет db/index.js, потом db.js, потом db.json
 
-var phrases = require('./ru'); // расширение можно не писать
+var db = require('db');
 
 function User(name) {
     this.name = name;
@@ -8,7 +10,7 @@ function User(name) {
 
 User.prototype.hello = function (who) {
     // ...
-    console.log(phrases.Hello + ', ' + who.name);
+    console.log(db.getPhrase('Hello') + ', ' + who.name);
 };
 
 // ...
